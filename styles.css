@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.map {
+    height: 100%;
+}
+
+.dialog {
+    top: 30px;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: #333;
+    font-size: 12px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.28);
+}
+
+.intro-dialog {
+    padding: 30px;
+    width: 500px;
+}
+
+.compare {
+    text-align: center;
+}
+
+.button-reset {
+    outline: 0;
+    border: 0;
+    background: none;
+}
+
+.dialog-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;    
+}
+
+.chart {
+    margin-top: 24px;
+    width: 800px;
+}

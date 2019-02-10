@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Estimated Annual average daily flows</title>
+
+        <link href="styles.css" rel="stylesheet" />
+
+        <script src="js/lib/highcharts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ramda/0.26.1/ramda.min.js"></script>
+        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGBVGijtMmg8VujrO_pgq4W_Acw3wgpao"></script>
+        <script type="module" src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="map"></div>
+        <dialog class="dialog intro-dialog" id="introDialog">
+            <h1 class="intro-title">Estimated Annual average daily flows (AADFs) – major roads</h1>
+            <p>AADF figures are produced for each junction to junction link on the major road network for
+                every year.</p>
+            <p>An AADF is the average over a full year of the number of vehicles passing a point in the
+                road network each day. Major roads include Motorway and A-class roads.</p>
+            <button id="introDialogClose" class="dialog-close button-reset">&times;</button>
+        </dialog>
+    </body>
+</html>
